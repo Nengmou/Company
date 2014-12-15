@@ -1,0 +1,9 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/ZiJingHu_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\nwang\\Dropbox\\Nemo\\ZiJingHu\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\nwang\\Dropbox\\Nemo\\ZiJingHu\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ZiJingHuContext-Web.config Connection String" description="ZiJingHuContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=zijinghu.crdfbrrypcos.us-east-1.rds.amazonaws.com;Initial Catalog=zijinghu;User Id=nmwang125; Password=Ilovexiang1212;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\nwang\\Dropbox\\Nemo\\ZiJingHu\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ZiJingHuContext']/@connectionString" />
+  </parameter>
+</parameters>
