@@ -31,11 +31,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background: rgba(0,0,0,0.6);
 }
 
-#wowslider-container1 {
-    display: inline-table !important;
-    margin-top: -50px !important;
-}
-
 .image-full-grid {
     width:100%;
 }

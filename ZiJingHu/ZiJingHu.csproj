@@ -184,53 +184,32 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Background.html" />
-    <Content Include="BackgroundPicture.html" />
     <Content Include="CLEditor\images\buttons.gif" />
     <Content Include="CLEditor\images\toolbar.gif" />
     <Content Include="CLEditor\jquery.cleditor.css" />
     <Content Include="CLEditor\jquery.cleditor.js" />
     <Content Include="CLEditor\jquery.cleditor.min.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\ZiJingHu.css" />
-    <Content Include="data1\images\bridge.jpg" />
-    <Content Include="data1\images\Energy.jpg" />
-    <Content Include="data1\images\office_automation.jpg" />
-    <Content Include="data1\images\photo_enforcement.jpg" />
-    <Content Include="data1\images\travel.jpg" />
-    <Content Include="data1\images\website.jpg" />
-    <Content Include="data1\tooltips\bridge.jpg" />
-    <Content Include="data1\tooltips\office_automation.jpg" />
-    <Content Include="data1\tooltips\photo_enforcement.jpg" />
-    <Content Include="data1\tooltips\travel.jpg" />
-    <Content Include="data1\tooltips\website.jpg" />
-    <Content Include="engine1\arrows.png" />
-    <Content Include="engine1\bullet.png" />
-    <Content Include="engine1\jquery.js" />
-    <Content Include="engine1\pause.png" />
-    <Content Include="engine1\play.png" />
-    <Content Include="engine1\script.js" />
-    <Content Include="engine1\style.css" />
-    <Content Include="engine1\style.mod.css" />
-    <Content Include="engine1\triangle.png" />
-    <Content Include="engine1\wowslider.js" />
-    <Content Include="engine1\wowslider.mod.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="iframe_BackgroundPicture.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\Background\Bridge.jpg" />
-    <Content Include="Images\Background\EMS.jpg" />
     <Content Include="Images\Background\Energy.jpg" />
-    <Content Include="Images\Background\Office Automation.jpg" />
-    <Content Include="Images\Background\Photo Enforcement.jpg" />
+    <Content Include="Images\Background\Office_Automation.jpg" />
+    <Content Include="Images\Background\Photo_Enforcement.jpg" />
     <Content Include="Images\Background\Travel.jpg" />
     <Content Include="Images\Background\Website.jpg" />
     <Content Include="Images\Clients\baltimore county maryland.jpg" />
@@ -257,8 +236,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\jssor.slider.mini.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
@@ -300,13 +279,13 @@
     <Content Include="Views\Shared\_EditOrBack.cshtml" />
     <Content Include="Views\Shared\_Back.cshtml" />
     <Content Include="Views\Business\Index.cshtml" />
+    <Content Include="Views\Shared\_ImageSlides.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201411271837216_Init.resx">
